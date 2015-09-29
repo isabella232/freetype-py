@@ -70,7 +70,7 @@ Contributors
 """
 
 setup( name        = 'freetype-py',
-       version     = '1.0.2',
+       version     = '1.0.2+dama',
        description = 'Freetype python bindings',
        long_description = description,
        author      = 'Nicolas P. Rougier',
@@ -91,4 +91,5 @@ setup( name        = 'freetype-py',
           'Programming Language :: Python :: 3',
           'Topic :: Multimedia :: Graphics',
           ],
+		data_files=[('', ['freetype.dll'])]
      )
